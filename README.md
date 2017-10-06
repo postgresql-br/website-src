@@ -17,11 +17,11 @@
     pyenv install 3.5.2
 
 
-### 4) Instalando Pelican
+#### Dependencias
 
-    pip install pelican
-    pip install markdown
-
+```bash 
+pip3 install -r requirements.txt
+```
 
 ### 5) Construção
 
