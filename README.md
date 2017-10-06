@@ -23,6 +23,28 @@
 pip3 install -r requirements.txt
 ```
 
+#### Atualizando as dependencias
+
+Caso seja necessário adicionar uma nova dependencia, siga o procedimento abaixo.
+
+1. Carregue o virtualenv:
+
+    ```
+    source venv/bin/activate\
+    ```
+    > Caso o mesmo não exista, crie ele com `virtualenv venv`
+
+1. Instale a nova dependência, por exemplo: 
+    ```bash
+    pip instal bla
+    ```
+1. atualize as dependencias no `requirements.txt`:
+
+    ```bash
+    pip3 freeze > requirements.txt
+    ```
+
+
 ### 5) Construção
 
     make html
